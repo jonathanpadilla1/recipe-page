@@ -1,0 +1,112 @@
+
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (max-width: 680px) {
+    html {
+        padding: 0em;
+    }
+}
+
+@media screen and (min-width: 681px) {
+    html {
+        padding: 6em;
+    }
+}
+
+html {
+    font-family: "Outfit";
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.5em;
+    background-color: hsl(30, 54%, 90%);
+    /* padding: 6em; */
+}
+
+body {
+    margin: 0 auto;
+    padding: 3em;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    min-width: 375px;
+    max-width: auto;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    color: hsl(24, 5%, 18%);
+    line-height: 1.2em;
+}
+  
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+hr {
+    background-color: hsl(30, 18%, 87%);
+    height: 1px;
+    border: 0;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.table {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+    line-height: 2.5em;
+}
+
+li {
+    padding-left: 16px;
+}
+
+.rasberry-background {
+    background-color: hsl(330, 100%, 98%);
+    padding: 12px;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    border-radius: 15px;
+}
+
+.prep-time {
+    padding-left: 16px;
+}
+
+.nutritional{
+    padding-bottom: 2em;
+}
+
+
+.left-list {
+    margin-left: 4em;
+}
+.right-list {
+    color: hsl(14, 45%, 36%);
+    float: inline-end;
+    margin-right: 4em;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.title {
+    margin-top: 1.5em;
+}
